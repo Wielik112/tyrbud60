@@ -439,6 +439,9 @@ footer{background:var(--black);color:#fff;padding:80px 0 34px}
 .foot-bottom{padding-top:30px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;font-size:.86rem;color:rgba(255,255,255,.5)}
 .foot-bottom a{color:rgba(255,255,255,.5)}
 .foot-bottom a:hover{color:var(--bronze-soft)}
+.foot-credit a{display:inline-flex;align-items:center;gap:4px;font-weight:600;color:rgba(255,255,255,.75);letter-spacing:.02em;transition:color .25s}
+.foot-credit svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;transition:transform .25s}
+.foot-credit a:hover svg{transform:translate(2px,-2px)}
 
 /* ---------- REVEAL ANIMATION ---------- */
 .reveal{opacity:0;transform:translateY(38px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
